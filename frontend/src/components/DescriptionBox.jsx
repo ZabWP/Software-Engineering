@@ -1,3 +1,5 @@
+// This is an example of a reusable component
+
 export const DescriptionBox = () => {
   return (
     <div>
