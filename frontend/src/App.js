@@ -8,7 +8,7 @@ const App = () => {
   const setUser = useUserStore((state) => state.setUser);
   const setToken = useUserStore((state) => state.setToken);
 
-  // Checks if the user is already logged in. (If user info is stored in local storage)
+  // On page load, check if the user is already logged in. (If user info is stored in local storage)
   useEffect(() => {
     const token = localStorage.getItem("authToken");
 
@@ -43,11 +43,11 @@ const App = () => {
     } else {
       setIsLoggedIn(false); // No token found, user is not logged in
     }
-  }, []);
+  }, [setIsLoggedIn, setToken, setUser]);
 
   return (
     <div className="App">
-      {isLoggedIn ? <h1>Welcome back!</h1> : <h1>Please log in</h1>}
+      {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
       <Navbar />
       <Home />
     </div>
