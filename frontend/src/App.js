@@ -8,13 +8,15 @@ const App = () => {
   const setUser = useUserStore((state) => state.setUser);
   const setToken = useUserStore((state) => state.setToken);
 
+  const BACKEND_URL = "";
+
   // On page load, check if the user is already logged in. (If user info is stored in local storage)
   useEffect(() => {
     const token = localStorage.getItem("authToken");
 
     // If a token is found, send the token to the backend to verify if it's valid
     if (token) {
-      fetch("http://your-backend.com/verify-token", {
+      fetch(BACKEND_URL + "/verify-token", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,
@@ -47,6 +49,7 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1>Shart Gallery</h1>
       {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
       <Navbar />
       <Home />

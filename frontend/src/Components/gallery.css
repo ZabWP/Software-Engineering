@@ -1,0 +1,9 @@
+.artContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artItem {
+  margin: 2px 5px;
+  background-color: antiquewhite;
+}

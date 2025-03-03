@@ -1,0 +1,62 @@
+[
+  {
+    "image": "https://example.com/images/art1.jpg",
+    "name": "Celestial Dreams",
+    "creator": "Luna Astralis",
+    "tags": ["Surrealism", "Fantasy", "Ethereal"]
+  },
+  {
+    "image": "https://example.com/images/art2.jpg",
+    "name": "Neon Metropolis",
+    "creator": "Kai Futurist",
+    "tags": ["Cyberpunk", "Futurism", "Cityscape"]
+  },
+  {
+    "image": "https://example.com/images/art3.jpg",
+    "name": "Whispers of Nature",
+    "creator": "Aria Evergreen",
+    "tags": ["Nature", "Abstract", "Minimalism"]
+  },
+  {
+    "image": "https://example.com/images/art4.jpg",
+    "name": "Echoes of Time",
+    "creator": "Dante Chronos",
+    "tags": ["Abstract", "Time", "Philosophical"]
+  },
+  {
+    "image": "https://example.com/images/art5.jpg",
+    "name": "Cosmic Symphony",
+    "creator": "Nova Harmonia",
+    "tags": ["Space", "Music", "Sci-Fi"]
+  },
+  {
+    "image": "https://example.com/images/art6.jpg",
+    "name": "Golden Reverie",
+    "creator": "Ophelia Lux",
+    "tags": ["Romanticism", "Dreamlike", "Golden Hour"]
+  },
+  {
+    "image": "https://example.com/images/art7.jpg",
+    "name": "Digital Dystopia",
+    "creator": "Xander Code",
+    "tags": ["Dystopian", "Technology", "Glitch"]
+  },
+  {
+    "image": "https://example.com/images/art8.jpg",
+    "name": "Serenity in Chaos",
+    "creator": "Ezra Zen",
+    "tags": ["Meditation", "Chaos", "Balance"]
+  },
+  {
+    "image": "https://example.com/images/art9.jpg",
+    "name": "Metamorphosis",
+    "creator": "Iris Morph",
+    "tags": ["Transformation", "Surreal", "Evolution"]
+  },
+  {
+    "image": "https://example.com/images/art10.jpg",
+    "name": "Fractured Reality",
+    "creator": "Viktor Prism",
+    "tags": ["Geometric", "Abstract", "Illusion"]
+  }
+]
