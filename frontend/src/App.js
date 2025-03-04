@@ -52,13 +52,15 @@ const App = () => {
 
   return (
     <div className="App">
-      {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/gallery/:id" element={""} />
       </Routes>
+
+      {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
+
     </div>  
   );
 };
