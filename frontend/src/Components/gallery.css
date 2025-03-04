@@ -1,9 +1,27 @@
 .artContainer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .artItem {
-  margin: 2px 5px;
-  background-color: antiquewhite;
+  margin: 10px 5px;
+  height: 400px;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.thumbnail{
+  height: 70%;
+  width: 95%;
+  object-fit: cover;
+  border-radius: 15px;
 }

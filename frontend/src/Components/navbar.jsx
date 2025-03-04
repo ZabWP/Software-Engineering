@@ -4,7 +4,7 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <div className="navbarContainer">
-      <h1>Navbar Component</h1>
+      <h1>Shart Gallery</h1>
       <SSO />
     </div>
   );

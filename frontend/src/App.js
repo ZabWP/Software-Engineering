@@ -2,6 +2,9 @@ import Home from "./Components/home";
 import Navbar from "./Components/navbar";
 import { useState, useEffect } from "react";
 import useUserStore from "./stateManagement/userInfoStore";
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -49,11 +52,14 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Shart Gallery</h1>
       {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
       <Navbar />
-      <Home />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/gallery/:id" element={""} />
+      </Routes>
+    </div>  
   );
 };
 

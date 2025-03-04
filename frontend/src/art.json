@@ -1,62 +1,65 @@
 [
   {
-    "image": "https://example.com/images/art1.jpg",
+    "id": 1,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346268522652766248/image.png?ex=67c791c4&is=67c64044&hm=fa3a3e541986a05e330aed2257d65d03051cd93e7e2d193fef1a13438400bc94&",
     "name": "Celestial Dreams",
     "creator": "Luna Astralis",
-    "tags": ["Surrealism", "Fantasy", "Ethereal"]
+    "createdAt": "2024-12-26"
   },
   {
-    "image": "https://example.com/images/art2.jpg",
+    "id": 2,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346268576851431435/image.png?ex=67c791d1&is=67c64051&hm=2051126162f8c443e993b81aa5a7c46e744fd4339e5708c695a88be2ca9f6fd1&",
     "name": "Neon Metropolis",
     "creator": "Kai Futurist",
-    "tags": ["Cyberpunk", "Futurism", "Cityscape"]
+    "createdAt": "2024-10-21"
   },
   {
-    "image": "https://example.com/images/art3.jpg",
+    "id": 3,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346268662415233126/image.png?ex=67c791e5&is=67c64065&hm=5a9c00a5327b93a9642e1d9cd201fc943b5520d8d96422544086f059942ed672&",
     "name": "Whispers of Nature",
     "creator": "Aria Evergreen",
-    "tags": ["Nature", "Abstract", "Minimalism"]
+    "createdAt": "2024-11-03"
   },
   {
-    "image": "https://example.com/images/art4.jpg",
+    "id": 4,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346269743048298588/image.png?ex=67c83ba7&is=67c6ea27&hm=d7723cedfa1a62bb06730e81cd61a8e639f4c111d870f6dbb6e4a071cbd76ad8&",
     "name": "Echoes of Time",
     "creator": "Dante Chronos",
-    "tags": ["Abstract", "Time", "Philosophical"]
+    "createdAt": "2025-01-19"
   },
   {
-    "image": "https://example.com/images/art5.jpg",
+    "id": 5,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346269842478469140/image.png?ex=67c83bbe&is=67c6ea3e&hm=ba44e069248e21b574d6338e90117c88bc1943298703652dc44181d4a5cf1ce8&",
     "name": "Cosmic Symphony",
     "creator": "Nova Harmonia",
-    "tags": ["Space", "Music", "Sci-Fi"]
+    "createdAt": "2025-01-08"
   },
   {
-    "image": "https://example.com/images/art6.jpg",
+    "id": 6,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346269943989272586/image.png?ex=67c83bd7&is=67c6ea57&hm=c6473ff9eee8098d7acda4068fc531c5a99db37423813be04afa900df3624266&",
     "name": "Golden Reverie",
     "creator": "Ophelia Lux",
-    "tags": ["Romanticism", "Dreamlike", "Golden Hour"]
+    "createdAt": "2024-12-21"
   },
   {
-    "image": "https://example.com/images/art7.jpg",
+    "id": 7,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346270060280545281/image.png?ex=67c83bf2&is=67c6ea72&hm=b280d5b8ddb63cc4953a8526b5a275972193b2520841477d982185ecdb3c85b9&",
     "name": "Digital Dystopia",
     "creator": "Xander Code",
-    "tags": ["Dystopian", "Technology", "Glitch"]
+    "createdAt": "2024-10-13"
   },
   {
-    "image": "https://example.com/images/art8.jpg",
+    "id": 8,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346270622547968010/image.png?ex=67c83c78&is=67c6eaf8&hm=5706f1b0a4d9087fbd937f24afed490e02b5eed068bb5e34c1d45b2d4b7704e2&",
     "name": "Serenity in Chaos",
     "creator": "Ezra Zen",
-    "tags": ["Meditation", "Chaos", "Balance"]
+    "createdAt": "2024-09-20"
   },
   {
-    "image": "https://example.com/images/art9.jpg",
+    "id": 9,
+    "image": "https://cdn.discordapp.com/attachments/1346268283279773759/1346270790093508659/image.png?ex=67c83ca0&is=67c6eb20&hm=45b1af0841cd6857f8f0bdbf762c577f7289d58e0bc1448d9bf5996d1225c51f&",
     "name": "Metamorphosis",
     "creator": "Iris Morph",
-    "tags": ["Transformation", "Surreal", "Evolution"]
-  },
-  {
-    "image": "https://example.com/images/art10.jpg",
-    "name": "Fractured Reality",
-    "creator": "Viktor Prism",
-    "tags": ["Geometric", "Abstract", "Illusion"]
+    "createdAt": "2025-01-05"
   }
 ]
