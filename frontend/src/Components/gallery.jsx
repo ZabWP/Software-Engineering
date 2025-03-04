@@ -21,7 +21,9 @@ const Gallery = () => {
       {galleryItems.map((data, index) => (
         <div key={index} className="artItem" onClick={() => navUser(data.id)}>
           <h2>{data.name}</h2>
+          <div className="thmbContainer">
           <img src={data.image} className="thumbnail" alt="pic" />
+          </div>
         </div>
       ))}
     </div>
