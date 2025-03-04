@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import useUserStore from "./stateManagement/userInfoStore";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
+import ArtItem from "./Components/artItem";
 
 
 const App = () => {
@@ -56,7 +57,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/gallery/:id" element={""} />
+        <Route path="/gallery/:id" element={<ArtItem />} />
       </Routes>
 
       {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
