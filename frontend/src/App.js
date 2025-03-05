@@ -5,6 +5,7 @@ import useUserStore from "./stateManagement/userInfoStore";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import ArtItem from "./Components/artItem";
+import SearchBar from "./Components/searchBar";
 
 
 const App = () => {
@@ -54,6 +55,7 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
+      <SearchBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
