@@ -6,6 +6,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import ArtItem from "./Components/artItem";
 import SearchBar from "./Components/searchBar";
+import SearchResults from "./Components/searchResults";
 
 
 const App = () => {
@@ -60,6 +61,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/gallery/:id" element={<ArtItem />} />
+        <Route path="/search" element={<SearchResults />} />
       </Routes>
 
       {isLoggedIn ? <p>User is logged in</p> : <p>User is not logged in</p>}
