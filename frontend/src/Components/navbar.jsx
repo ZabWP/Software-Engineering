@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <div className="navbarContainer">
       <div className="logoContainer" onClick={() => navigate('/home')}>
-      <img src="https://cdn.discordapp.com/attachments/1346268283279773759/1346547549242396732/image.png?ex=67c895a1&is=67c74421&hm=6e7abc19b7f8015144cfa4cc7ddb0c74471e9deac6d9aacadd08b41bef86dde4&" alt="logo" />
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczPLR-MNks-h4cY_Zt-ihCSp61NyiRNDzAMp-GHNMn0SMVOwab8YT0AI3hiKHbToImAchqec1K-yZhUOPliE-8ad42L9Wa8Mc6vmWNJaJJhHLgpjrnI=w2400" alt="logo" />
       <h1>Shart Gallery</h1>
       </div>
      

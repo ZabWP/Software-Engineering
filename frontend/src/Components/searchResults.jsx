@@ -1,15 +1,12 @@
 import React from 'react';
-import userData from "../users.json";
-import artData from "../art.json";
 import { useNavigate } from 'react-router-dom';
 
 const SearchResults = () => {
+    const userData = [];
+    const artData = [];
 
     const navigate = useNavigate();
 
-    const handleNavigate = (id, username) => {
-        navigate('/profile/'+ id + '/' + username);
-    }
 
     return (
         <div>
@@ -18,7 +15,7 @@ const SearchResults = () => {
             <h3>Profiles</h3>
             <div className="profilesSearchResults">
             {userData.map(user => (
-                <div key={user.user_ID} className='profile' onClick={()=> handleNavigate(user.user_ID, user.username)}>
+                <div key={user.user_ID} className='profile' onClick={()=>     navigate('/profile/'+ user.user_ID + '/' + user.username)}>
                     <img src={user.profile_pic} alt="pfp"  className='pfp'/>
                     <p>{user.username}</p>
                 </div>

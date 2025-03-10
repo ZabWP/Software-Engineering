@@ -56,7 +56,7 @@
 
     & .artPost {
         width: 30%;
-
+        cursor: pointer;
         & img {
             width: 100%;
             object-fit: cover;

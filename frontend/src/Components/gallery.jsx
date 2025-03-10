@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import data from "../art.json";
 import "./gallery.css";
 import {useNavigate} from 'react-router-dom';
 
@@ -13,9 +12,15 @@ const Gallery = () => {
   }
 
   useEffect(() => {
-    setGalleryItems(data);
+    fetch("https://codd.cs.gsu.edu/~zbronola1/SoftwareEngineering/shart/artPosts.php") 
+      .then((response) => response.json())
+      .then((data) => setGalleryItems(data)) 
+      .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
+  if (!galleryItems) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div className="artContainer">

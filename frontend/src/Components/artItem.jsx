@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import artData from '../art.json';
+
 import { useNavigate } from 'react-router-dom';
 
 const ArtItem = () => {
@@ -9,8 +9,16 @@ const ArtItem = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        const item = artData.find(art => art.id === parseInt(id));
-        setArtItem(item);
+        const fetchData = async () => {
+            const res = await fetch("https://codd.cs.gsu.edu/~zbronola1/SoftwareEngineering/shart/artPosts.php?id=" + id)
+            if (!res.ok) throw new Error("Failed to fetch");
+
+            const data = await res.json();
+            setArtItem(data);
+            console.log(artItem);
+        };
+
+        fetchData();
     }, [id]);
 
     if (!artItem) {
