@@ -1,9 +1,8 @@
 <?php
-// Step 1: Establish a connection to the local MySQL database
-$servername = "localhost";  // Local server
-$username = "root";         // Default username for XAMPP or MAMP
-$password = "password";             // Default password is empty
-$database = "Shart"; // Replace with your database name
+$servername = "127.0.0.1";  
+$username = "zbronola1";         
+$password = "zbronola1";        
+$database = "";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $database);
